@@ -7,6 +7,10 @@ import { ServiceWrapper } from "@/components/ServiceWrapper";
 import Tag from "@/tag/Tag";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Mulish } from "next/font/google";
+import { Open_Sans } from "next/font/google";
+import { Manrope } from "next/font/google";
+import { DM_Sans } from "next/font/google";
+import { Libre_Baskerville } from "next/font/google";
 
 
 
@@ -40,8 +44,16 @@ export const metadata: Metadata = {
   },
 };
 
-const mulish = Mulish({
-  variable: "--font-mulish",
+
+
+
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-libre-baskerville",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -53,7 +65,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${mulish.variable} antialiased`}>
+        <body className={`${libreBaskerville.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
