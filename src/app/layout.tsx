@@ -48,8 +48,14 @@ export const metadata: Metadata = {
 
 
 
-const manrope = Manrope({
-  variable: "--font-manrope",
+
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-libre-baskerville",
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -61,7 +67,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${manrope.variable} antialiased`}>
+        <body className={`${libreBaskerville.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
