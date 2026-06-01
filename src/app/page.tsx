@@ -6,7 +6,7 @@ import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import FeatureCardSixteen from '@/components/sections/feature/FeatureCardSixteen';
 import FooterCard from '@/components/sections/footer/FooterCard';
-import HeroBillboardGallery from '@/components/sections/hero/HeroBillboardGallery';
+import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
@@ -54,7 +54,7 @@ export default function LandingPage() {
   </div>
 
   <div id="hero" data-section="hero">
-      <HeroBillboardGallery
+      <HeroBillboardScroll
       background={{
         variant: "plain"}}
       title="Timeless Sweetness, Crafted Tradition"
@@ -66,21 +66,8 @@ export default function LandingPage() {
           text: "Learn More",          href: "#about"},
       ]}
       buttonAnimation="slide-up"
-      mediaItems={[
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-salty-caramel-fudge-candies-with-sea-salt_114579-9217.jpg",          imageAlt: "Assortment of traditional Indian sweets"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/bowls-tasty-pickled-garlic-burlap_114579-23965.jpg",          imageAlt: "Close-up of golden Motichoor Ladoo"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/sweet-turkish-delight-plate-with-blank-paper_23-2148079993.jpg",          imageAlt: "Elegant display of assorted Barfi"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-vector/elegant-wedding-landing-page_23-2148185639.jpg",          imageAlt: "Beautifully packaged sweet box for gifting"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-women-cooking-ramadan_23-2150234167.jpg",          imageAlt: "Chef's hands meticulously crafting sweets"},
-        {
-          imageSrc: "http://img.b2bpic.net/free-photo/people-eating-spanish-tortilla_52683-107691.jpg",          imageAlt: "Happy family enjoying sweets during a celebration"},
-      ]}
-      mediaAnimation="slide-up"
+      imageSrc="http://img.b2bpic.net/free-photo/tasty-salty-caramel-fudge-candies-with-sea-salt_114579-9217.jpg"
+      imageAlt="Assortment of traditional Indian sweets"
     />
   </div>
 
