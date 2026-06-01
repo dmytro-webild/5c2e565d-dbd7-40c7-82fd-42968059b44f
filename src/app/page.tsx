@@ -33,38 +33,22 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Home",
-          id: "#hero",
-        },
+          name: "Home",          id: "#hero"},
         {
-          name: "About Us",
-          id: "#about",
-        },
+          name: "About Us",          id: "#about"},
         {
-          name: "Our Sweets",
-          id: "#products",
-        },
+          name: "Our Sweets",          id: "#products"},
         {
-          name: "Quality",
-          id: "#features",
-        },
+          name: "Quality",          id: "#features"},
         {
-          name: "Testimonials",
-          id: "#testimonials",
-        },
+          name: "Testimonials",          id: "#testimonials"},
         {
-          name: "FAQs",
-          id: "#faq",
-        },
+          name: "FAQs",          id: "#faq"},
         {
-          name: "Contact",
-          id: "#contact",
-        },
+          name: "Contact",          id: "#contact"},
       ]}
       button={{
-        text: "Order Now",
-        href: "#products",
-      }}
+        text: "Order Now",        href: "#products"}}
       brandName="Prabhawati Sweet House"
     />
   </div>
@@ -72,46 +56,29 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroBillboardGallery
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       title="Timeless Sweetness, Crafted Tradition"
       description="Handcrafted sweets celebrating heritage flavors. Premium ingredients, authentic recipes, delivered fresh to your celebration."
       buttons={[
         {
-          text: "Explore Our Collection",
-          href: "#products",
-        },
+          text: "Explore Our Collection",          href: "#products"},
         {
-          text: "Learn More",
-          href: "#about",
-        },
+          text: "Learn More",          href: "#about"},
       ]}
       buttonAnimation="slide-up"
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/tasty-salty-caramel-fudge-candies-with-sea-salt_114579-9217.jpg",
-          imageAlt: "Assortment of traditional Indian sweets",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/tasty-salty-caramel-fudge-candies-with-sea-salt_114579-9217.jpg",          imageAlt: "Assortment of traditional Indian sweets"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/bowls-tasty-pickled-garlic-burlap_114579-23965.jpg",
-          imageAlt: "Close-up of golden Motichoor Ladoo",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/bowls-tasty-pickled-garlic-burlap_114579-23965.jpg",          imageAlt: "Close-up of golden Motichoor Ladoo"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/sweet-turkish-delight-plate-with-blank-paper_23-2148079993.jpg",
-          imageAlt: "Elegant display of assorted Barfi",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/sweet-turkish-delight-plate-with-blank-paper_23-2148079993.jpg",          imageAlt: "Elegant display of assorted Barfi"},
         {
-          imageSrc: "http://img.b2bpic.net/free-vector/elegant-wedding-landing-page_23-2148185639.jpg",
-          imageAlt: "Beautifully packaged sweet box for gifting",
-        },
+          imageSrc: "http://img.b2bpic.net/free-vector/elegant-wedding-landing-page_23-2148185639.jpg",          imageAlt: "Beautifully packaged sweet box for gifting"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-women-cooking-ramadan_23-2150234167.jpg",
-          imageAlt: "Chef's hands meticulously crafting sweets",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/high-angle-women-cooking-ramadan_23-2150234167.jpg",          imageAlt: "Chef's hands meticulously crafting sweets"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/people-eating-spanish-tortilla_52683-107691.jpg",
-          imageAlt: "Happy family enjoying sweets during a celebration",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/people-eating-spanish-tortilla_52683-107691.jpg",          imageAlt: "Happy family enjoying sweets during a celebration"},
       ]}
       mediaAnimation="slide-up"
     />
@@ -122,14 +89,10 @@ export default function LandingPage() {
       useInvertedBackground={false}
       title="Our Heritage of Sweet Craftsmanship"
       description={[
-        "For generations, Prabhawati Sweet House has been dedicated to perfecting the art of traditional Indian confectionery. Every sweet is a testament to timeless recipes passed down through our family, crafted with love and meticulous attention to detail.",
-        "We believe in preserving the authentic taste and rich cultural essence of Indian sweets. Our commitment to quality ensures that each bite evokes nostalgia and celebrates the joy of sharing. Discover the story behind our cherished creations.",
-      ]}
+        "For generations, Prabhawati Sweet House has been dedicated to perfecting the art of traditional Indian confectionery. Every sweet is a testament to timeless recipes passed down through our family, crafted with love and meticulous attention to detail.",        "We believe in preserving the authentic taste and rich cultural essence of Indian sweets. Our commitment to quality ensures that each bite evokes nostalgia and celebrates the joy of sharing. Discover the story behind our cherished creations."]}
       buttons={[
         {
-          text: "Our Story",
-          href: "#",
-        },
+          text: "Our Story",          href: "#"},
       ]}
       buttonAnimation="slide-up"
     />
@@ -142,19 +105,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       negativeCard={{
         items: [
-          "Artificial Preservatives",
-          "Low-Quality Ingredients",
-          "Mass Production",
-          "Stale Products",
-        ],
+          "Artificial Preservatives",          "Low-Quality Ingredients",          "Mass Production",          "Stale Products"],
       }}
       positiveCard={{
         items: [
-          "100% Pure Ingredients",
-          "Handcrafted Daily",
-          "Authentic Recipes",
-          "Freshness Guaranteed",
-        ],
+          "100% Pure Ingredients",          "Handcrafted Daily",          "Authentic Recipes",          "Freshness Guaranteed"],
       }}
       title="The Prabhawati Promise: Uncompromising Quality"
       description="We handpick the finest ingredients, from rich Ghee to premium nuts, ensuring every sweet meets our exacting standards. Experience the difference of authentic flavor and unparalleled freshness."
@@ -165,51 +120,21 @@ export default function LandingPage() {
       <ProductCardOne
       animationType="slide-up"
       textboxLayout="default"
-      gridVariant="three-columns-all-items-equal"
+      gridVariant="three-columns-all-equal-width"
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",
-          name: "Motichoor Ladoo",
-          price: "₹450/kg",
-          imageSrc: "http://img.b2bpic.net/free-photo/metal-cup-filled-with-brown-candied-popcorn-marble-table_114579-56462.jpg",
-          imageAlt: "Motichoor Ladoo",
-        },
+          id: "p1",          name: "Motichoor Ladoo",          price: "₹450/kg",          imageSrc: "http://img.b2bpic.net/free-photo/metal-cup-filled-with-brown-candied-popcorn-marble-table_114579-56462.jpg",          imageAlt: "Motichoor Ladoo"},
         {
-          id: "p2",
-          name: "Kaju Katli",
-          price: "₹800/kg",
-          imageSrc: "http://img.b2bpic.net/free-photo/cake-brownie-mini-pop-cake-wooden-plate-marble-table_114579-83949.jpg",
-          imageAlt: "Kaju Katli",
-        },
+          id: "p2",          name: "Kaju Katli",          price: "₹800/kg",          imageSrc: "http://img.b2bpic.net/free-photo/cake-brownie-mini-pop-cake-wooden-plate-marble-table_114579-83949.jpg",          imageAlt: "Kaju Katli"},
         {
-          id: "p3",
-          name: "Gulab Jamun",
-          price: "₹350/kg",
-          imageSrc: "http://img.b2bpic.net/free-photo/sugar-marmalade-with-hot-herbal-cup-tea_114579-46825.jpg",
-          imageAlt: "Gulab Jamun",
-        },
+          id: "p3",          name: "Gulab Jamun",          price: "₹350/kg",          imageSrc: "http://img.b2bpic.net/free-photo/sugar-marmalade-with-hot-herbal-cup-tea_114579-46825.jpg",          imageAlt: "Gulab Jamun"},
         {
-          id: "p4",
-          name: "Rasgulla",
-          price: "₹320/kg",
-          imageSrc: "http://img.b2bpic.net/free-photo/swirled-caramel-cream-texture_23-2151988792.jpg",
-          imageAlt: "Rasgulla",
-        },
+          id: "p4",          name: "Rasgulla",          price: "₹320/kg",          imageSrc: "http://img.b2bpic.net/free-photo/swirled-caramel-cream-texture_23-2151988792.jpg",          imageAlt: "Rasgulla"},
         {
-          id: "p5",
-          name: "Mathura Pedha",
-          price: "₹500/kg",
-          imageSrc: "http://img.b2bpic.net/free-photo/sweet-turkish-delight-plate_23-2148079990.jpg",
-          imageAlt: "Mathura Pedha",
-        },
+          id: "p5",          name: "Mathura Pedha",          price: "₹500/kg",          imageSrc: "http://img.b2bpic.net/free-photo/sweet-turkish-delight-plate_23-2148079990.jpg",          imageAlt: "Mathura Pedha"},
         {
-          id: "p6",
-          name: "Jalebi",
-          price: "₹280/kg",
-          imageSrc: "http://img.b2bpic.net/free-photo/delicious-round-cookies-with-waffles-rope-white-background-high-quality-photo_114579-38223.jpg",
-          imageAlt: "Jalebi",
-        },
+          id: "p6",          name: "Jalebi",          price: "₹280/kg",          imageSrc: "http://img.b2bpic.net/free-photo/delicious-round-cookies-with-waffles-rope-white-background-high-quality-photo_114579-38223.jpg",          imageAlt: "Jalebi"},
       ]}
       title="Our Exquisite Sweet Collection"
       description="From classic Ladoos to exotic Barfis, explore a world of flavors designed to delight. Each sweet is a masterpiece, ready to make your celebrations extra special."
@@ -224,25 +149,15 @@ export default function LandingPage() {
       author="Anjali Sharma, Event Planner"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/young-professional-female-executive-wearing-red-jacket-while-sitting-outside-workplace_662251-2084.jpg",
-          alt: "Anjali Sharma",
-        },
+          src: "http://img.b2bpic.net/free-photo/young-professional-female-executive-wearing-red-jacket-while-sitting-outside-workplace_662251-2084.jpg",          alt: "Anjali Sharma"},
         {
-          src: "http://img.b2bpic.net/free-photo/cheerful-handsome-indian-businessman-with-documents_1262-17245.jpg",
-          alt: "Rajesh Kumar",
-        },
+          src: "http://img.b2bpic.net/free-photo/cheerful-handsome-indian-businessman-with-documents_1262-17245.jpg",          alt: "Rajesh Kumar"},
         {
-          src: "http://img.b2bpic.net/free-photo/walking-white-paper-hipster-cool-adult_1303-3237.jpg",
-          alt: "Priya Singh",
-        },
+          src: "http://img.b2bpic.net/free-photo/walking-white-paper-hipster-cool-adult_1303-3237.jpg",          alt: "Priya Singh"},
         {
-          src: "http://img.b2bpic.net/free-photo/thoughtful-senior-man-looking-camera_23-2148036683.jpg",
-          alt: "Suresh Mehta",
-        },
+          src: "http://img.b2bpic.net/free-photo/thoughtful-senior-man-looking-camera_23-2148036683.jpg",          alt: "Suresh Mehta"},
         {
-          src: "http://img.b2bpic.net/free-photo/portrait-smiling-businesswoman-with-mobile-phone_1262-1062.jpg",
-          alt: "Aisha Khan",
-        },
+          src: "http://img.b2bpic.net/free-photo/portrait-smiling-businesswoman-with-mobile-phone_1262-1062.jpg",          alt: "Aisha Khan"},
       ]}
       ratingAnimation="slide-up"
       avatarsAnimation="slide-up"
@@ -254,14 +169,7 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       names={[
-        "Delightful Diners",
-        "Celebration Planners",
-        "Local Food Critics",
-        "Festive Families",
-        "Gourmet Gifting",
-        "Community Events",
-        "Wedding Caterers",
-      ]}
+        "Delightful Diners",        "Celebration Planners",        "Local Food Critics",        "Festive Families",        "Gourmet Gifting",        "Community Events",        "Wedding Caterers"]}
       title="Loved by Thousands of Families"
       description="Our commitment to quality, tradition, and customer satisfaction has made us a cherished part of countless celebrations and homes across the region."
       speed={50}
@@ -274,20 +182,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "faq1",
-          title: "What ingredients do you use?",
-          content: "We use only premium, natural ingredients including pure ghee, fresh milk, and high-quality nuts. We avoid artificial flavors and preservatives.",
-        },
+          id: "faq1",          title: "What ingredients do you use?",          content: "We use only premium, natural ingredients including pure ghee, fresh milk, and high-quality nuts. We avoid artificial flavors and preservatives."},
         {
-          id: "faq2",
-          title: "Do you offer custom orders?",
-          content: "Yes, we gladly accept custom orders for special events like weddings and corporate gatherings. Please contact us in advance to discuss your requirements.",
-        },
+          id: "faq2",          title: "Do you offer custom orders?",          content: "Yes, we gladly accept custom orders for special events like weddings and corporate gatherings. Please contact us in advance to discuss your requirements."},
         {
-          id: "faq3",
-          title: "What are your delivery options?",
-          content: "We offer local delivery within a specified radius and also provide pickup options from our store. Delivery charges may apply based on your location.",
-        },
+          id: "faq3",          title: "What are your delivery options?",          content: "We offer local delivery within a specified radius and also provide pickup options from our store. Delivery charges may apply based on your location."},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/medium-shot-girl-mom-market_23-2149160667.jpg"
       imageAlt="Person asking question at sweet house counter"
@@ -302,8 +201,7 @@ export default function LandingPage() {
       <ContactCenter
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Get in Touch"
       title="Connect with Prabhawati Sweet House"
       description="Have a special request, bulk order, or just want to say hello? We'd love to hear from you!"
@@ -320,19 +218,13 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Facebook,
-          href: "#",
-          ariaLabel: "Facebook",
-        },
+          href: "#",          ariaLabel: "Facebook"},
         {
           icon: Instagram,
-          href: "#",
-          ariaLabel: "Instagram",
-        },
+          href: "#",          ariaLabel: "Instagram"},
         {
           icon: Mail,
-          href: "#",
-          ariaLabel: "Email",
-        },
+          href: "#",          ariaLabel: "Email"},
       ]}
     />
   </div>
