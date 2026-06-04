@@ -51,9 +51,11 @@ export const metadata: Metadata = {
 
 
 
-const dmSans = DM_Sans({
-  variable: "--font-dm-sans",
+
+const libreBaskerville = Libre_Baskerville({
+  variable: "--font-libre-baskerville",
   subsets: ["latin"],
+  weight: ["400", "700"],
 });
 const inter = Inter({
   variable: "--font-inter",
@@ -68,7 +70,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${dmSans.variable} ${inter.variable} antialiased`}>
+        <body className={`${libreBaskerville.variable} ${inter.variable} antialiased`}>
           <Tag />
           {children}
           <script
