@@ -15,6 +15,18 @@ import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
 import { Facebook, Instagram, Mail } from "lucide-react";
 
 export default function LandingPage() {
+  const updatedNavItems = [
+    { name: "Home", id: "/" },
+    { name: "About Us", id: "/#about" },
+    { name: "Our Sweets", id: "/#products" },
+    { name: "Quality", id: "/#features" },
+    { name: "Testimonials", id: "/#testimonials" },
+    { name: "FAQs", id: "/#faq" },
+    { name: "Contact", id: "/#contact" },
+    { name: "AI Blog", id: "/blog" },
+    { name: "Automation", id: "/automation" }
+  ];
+
   return (
     <ThemeProvider
         defaultButtonVariant="directional-hover"
@@ -31,24 +43,9 @@ export default function LandingPage() {
       <ReactLenis root>
   <div id="nav" data-section="nav">
       <NavbarStyleCentered
-      navItems={[
-        {
-          name: "Home",          id: "#hero"},
-        {
-          name: "About Us",          id: "#about"},
-        {
-          name: "Our Sweets",          id: "#products"},
-        {
-          name: "Quality",          id: "#features"},
-        {
-          name: "Testimonials",          id: "#testimonials"},
-        {
-          name: "FAQs",          id: "#faq"},
-        {
-          name: "Contact",          id: "#contact"},
-      ]}
+      navItems={updatedNavItems}
       button={{
-        text: "Order Now",        href: "#products"}}
+        text: "Order Now",        href: "/#products"}}
       brandName="Prabhawati Sweet House"
     />
   </div>
@@ -61,9 +58,9 @@ export default function LandingPage() {
       description="Handcrafted sweets celebrating heritage flavors. Premium ingredients, authentic recipes, delivered fresh to your celebration."
       buttons={[
         {
-          text: "Explore Our Collection",          href: "#products"},
+          text: "Explore Our Collection",          href: "/#products"},
         {
-          text: "Learn More",          href: "#about"},
+          text: "Learn More",          href: "/#about"},
       ]}
       buttonAnimation="slide-up"
       imageSrc="http://img.b2bpic.net/free-photo/tasty-salty-caramel-fudge-candies-with-sea-salt_114579-9217.jpg"
